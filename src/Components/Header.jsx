@@ -26,7 +26,7 @@ const Header = () => {
           )}
 
 
-        <div className="text-xl hidden md:block">
+        <div className="text-[18px] hidden md:block">
           <ul className="hidden md:flex gap-20 hover:cursor-pointer ">
             <li className="flex gap-12  ">
               {

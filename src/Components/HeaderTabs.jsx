@@ -6,7 +6,7 @@ function HeaderTabs(props) {
       <div className="hover:bg-green-400 hover:text-black transition-all rounded p-2">
         <div className="flex items-center">
       
-          <ul className="">
+          <ul>
             <li>{props.tabName}</li>
           </ul>
       
