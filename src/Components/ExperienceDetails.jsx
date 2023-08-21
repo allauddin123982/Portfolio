@@ -7,16 +7,16 @@ import NetflixDetails from "./NetflixDetails";
 
 function ExperienceDetails() {
 
-    const [active,setActive]=useState('samsoft');
+    const [active,setActive] = useState('samsoft');
     
     
 
   return (
     <>
-      <div className="mt-20 text-white max-w-[1240px] mx-auto md:grid grid-cols-3 gap-20 ">
-        <div className="-600 col-span-1">
+      <div className=" flex flex-col items-center md:flex justify-center text-white p-20 ">
+        <div className="border w-[300px] ">
 
-            <ul className="m-5 md:m-0">
+            <ul className="">
                 <li className={` p-5 hover:cursor-pointer border-l-4 ${active === 'samsoft' ? 'border-green-500 text-green-300' : 'border-gray-800'} `} onClick={() => setActive("samsoft")}>SamSoft</li>
                 <li className={` p-5 hover:cursor-pointer border-l-4 ${active === 'netflix' ? 'border-green-500 text-green-300' : 'border-gray-800'} `} onClick={() => setActive("netflix")}>Netflix </li>
                 <li className={` p-5 hover:cursor-pointer border-l-4 ${active === 'google' ? 'border-green-500 text-green-300' : 'border-gray-800'} `} onClick={() => setActive("google")}>Google</li>
@@ -26,7 +26,7 @@ function ExperienceDetails() {
             </ul>
 
         </div>
-        <div className=" m-5 md:mt-1 col-span-2">
+        <div className="w-[300px]  ">
             {
                 active === 'samsoft' ? <SamSoftDetails/> : active === 'apple' ? <AppleDetails/> : active == 'google'? <GoogleDetails/> :
                 active === 'netflix' ? <NetflixDetails/> : null

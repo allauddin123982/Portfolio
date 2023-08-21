@@ -10,10 +10,10 @@ function NetflixDetails() {
           
         </div>
         <p className="text-gray-400">From 27 November to 01 Febraury 2023 </p>
-        <ul className="ps-10 pt-5 list-disc">
-          <li className="pt-4">Node</li>
-          <li className="pt-4">Python</li>
-          <li className="pt-4">JavaScript</li>
+        <ul className="ps-8 pt-5 list-disc flex flex-col gap-y-8">
+          <li>Node</li>
+          <li>Python</li>
+          <li>JavaScript</li>
         </ul>
       </div>
     </>

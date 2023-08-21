@@ -10,10 +10,10 @@ function AppleDetails() {
           
         </div>
         <p className="text-gray-400">From 20 August to 31 December 2021 </p>
-        <ul className="ps-10 pt-5 list-disc">
-          <li className="pt-4">Frontend developer</li>
-          <li className="pt-4">React</li>
-          <li className="pt-4">Next</li>
+        <ul className="ps-5 pt-8 list-disc  flex flex-col gap-y-8">
+          <li>Frontend developer</li>
+          <li>React</li>
+          <li>Next</li>
         </ul>
       </div>
     </>

@@ -8,15 +8,16 @@ function About() {
     <>
       
 
-      <div className=" mt-10 max-w-[1440px] mx-auto">
-        <div className=" text-center ms-16  md:grid grid-cols-3">
-          <AboutMeCards icon={<FaAward className="text-white text-3xl ms-16 md:ms-20"/>} title={"Experience"} exptime={"3+ years Working"} />
-          <AboutMeCards icon={<BsPeopleFill className="text-white text-3xl ms-16 md:ms-20"/>} title={"Clients"} exptime={"200+ Worldwide"} />
-          <AboutMeCards icon={<VscFileSubmodule className="text-white text-3xl ms-16 md:ms-20"/>} title={"Projects"} exptime={"80+ Completed"} />
+      <div className="m-10 max-w-[1440px] mx-auto">
+        <div className=" p-2 flex flex-col md:flex-row items-center gap-y-6 justify-center  md:justify-evenly  ">
+          <AboutMeCards icon={<FaAward className="text-white text-2xl md:text-3xl "/>} title={"Experience"} exptime={"3+ years Working"} />
+          <AboutMeCards icon={<BsPeopleFill className="text-white text-2xl md:text-3xl "/>} title={"Clients"} exptime={"200+ Worldwide"} />
+          <AboutMeCards icon={<VscFileSubmodule className="text-white text-2xl md:text-3xl "/>} title={"Projects"} exptime={"80+ Completed"} />
         </div>
-        <div className="p-10 md:mt-12 text-white flex justify-center">
+
+        <div className="mt-20 md:mt-12 text-white flex justify-center">
         <h1 className="text-3xl font-bold border-b-[3px] tracking-widest">
-          About me{" "}
+          About me
         </h1>
       </div>
         <div className="p-10 ">

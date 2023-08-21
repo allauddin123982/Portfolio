@@ -8,7 +8,7 @@ function Testimonials() {
     <>
       <div className=" mt-10 md:mt-32 text-white flex justify-center">
         <h1 className="text-3xl font-bold border-b-[3px] tracking-widest">
-          Testinomials
+          Testimonials
         </h1>
       </div>
       <div className=" max-w-[1640px] mx-auto md:grid grid-cols-3">

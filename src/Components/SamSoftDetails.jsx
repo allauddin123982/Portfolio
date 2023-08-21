@@ -10,10 +10,10 @@ function SamSoftDetails() {
           
         </div>
         <p className="text-gray-400">From 17 July to 15th September 2023 </p>
-        <ul className="ps-10 pt-5 list-disc">
-          <li className="pt-4">Frontend developer</li>
-          <li className="pt-4">React</li>
-          <li className="pt-4">Next</li>
+        <ul className="ps-8 pt-5 list-disc flex flex-col gap-y-8">
+          <li >Frontend developer</li>
+          <li >React</li>
+          <li >Next</li>
         </ul>
       </div>
     </>

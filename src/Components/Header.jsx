@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
       <div className=" m-5 text-white p-5 ">
-        <div className="max-w-[1640px] mx-auto flex justify-between  items-center ">
+        <div className="max-w-[1640px] mx-auto flex justify-between items-center ">
           <div className="text-3xl font-bold font-serif"><h1>Porfolio</h1></div>
       
 
