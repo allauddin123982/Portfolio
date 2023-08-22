@@ -30,14 +30,14 @@ function Contact() {
 
         <div className=" col-span-1 text-white text-xl md:text-4xl p-5">
           
-            <form className="bg-[#17191d] shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <form className="bg-[#08080a] shadow-md rounded px-8 pt-6 pb-8 mb-4">
               <div className="mb-4">
                 <label className="block text-white text-2xl" htmlFor="Name">
                   Name
                 </label>
                 <input
                   type="text"
-                  className="bg-[#17191d] border border-green-500 w-full mt-2"
+                  className="bg-[#08080a] border border-green-500 w-full mt-2"
                 />
                 <label
                   className="block text-white mt-10 text-2xl"
@@ -47,7 +47,7 @@ function Contact() {
                 </label>
                 <input
                   type="text"
-                  className="bg-[#17191d] border border-green-500 w-full mt-2"
+                  className="bg-[#08080a] border border-green-500 w-full mt-2"
                 />
 
                 <label
@@ -61,7 +61,7 @@ function Contact() {
                   id=""
                   cols="65"
                   rows="5"
-                  className="bg-[#17191d] border border-green-500 w-full mt-2"
+                  className="bg-[#08080a] border border-green-500 w-full mt-2"
                 ></textarea>
                 <button className="bg-green-500 w-[100px] text-white p-2 text-xl">
                   Send

@@ -21,7 +21,9 @@ function About() {
   };
   return (
     <>
-      <div id="about-section" className="mt-10 md:mt-20 max-w-[1440px] mx-auto">
+   
+      <div id="about-section" className=" bg-[#09090a] mt-50 pt-16 pb-10 w-full mx-auto">
+     
         <div className=" flex flex-col md:flex-row items-center gap-y-6 justify-center  md:justify-evenly">
           <AboutMeCards
             icon={<FaAward className="text-white text-2xl md:text-3xl " />}
@@ -56,11 +58,7 @@ function About() {
             </h1>
 
             <p className="py-2 md:py-5 text-gray-400 text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil
-              aliquid totam provident, quasi dicta. Itaque assumenda explicabo
-              magni, inventore ipsa veniam ullam quibusdam nostrum temporibus
-              autem perspiciatis a porro? ipsum dolor sit amet consectetur
-              adipisicing elit. Vel nihil aliquid totam provident,
+            I am a dedicated and ambitious Computer Science student at Capital University, specializing in software development and front-end web development. With a strong foundation in languages such as C, C++, Python, SQL, and PHP. I am also experienced in front-end technologies, including HTML, CSS, Bootstrap, jQuery, AngularJS, JSON, and AJAX. My passion for problem-solving and attention to detail drive me to deliver high-quality work.
             </p>
           </div>
         </div>

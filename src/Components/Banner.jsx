@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../Images/profilepic.png";
+import mainPic from "../Images/me.jpeg";
 import Typed from "react-typed";
 import { useState } from "react";
 import { BsInstagram } from "react-icons/bs";
@@ -9,12 +9,13 @@ const Banner = () => {
   const [toggle, setToggle] = useState(true);
   return (
     <>
-      <div className="md:m-40 flex flex-col md:flex-row justify-center items-center gap-x-4 text-white">
-        <div className="">
+    
+      <div className="md:m-40 p-16 flex flex-col md:flex-row justify-center items-center gap-x-4 text-white">
+        <div className="drop-shadow-[0px_0px_12px_rgba(255,255,255,1.5)]">
           <img
-            src={profile}
+            src={mainPic}
             alt=""
-            className=" w-[180px] md:w-[280px] rounded-full"
+            className=" w-[180px] md:w-[280px] rounded-full z-0"
           />
         </div>
         <div className=" m-5 ">
@@ -36,7 +37,7 @@ const Banner = () => {
               <BsInstagram className="text-2xl font-bold md:text-4xl" />
             </a>
             <a href="https://www.google.com/" target="_blank" className="logo">
-              <AiOutlineGoogle className=" text-3xl md:text-5xl " />
+              <AiOutlineGoogle className=" text-3xl md:text-5xl hover:text-blue-500 " />
             </a>
             <a href=" https://www.linkedin.com/" target="_blank">
               <BiLogoLinkedin className="text-3xl md:text-5xl" />

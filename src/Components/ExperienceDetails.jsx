@@ -28,7 +28,7 @@ function ExperienceDetails() {
         </div>
         <div className=" w-[300px] md:w-[400px] mt-10 ">
             {
-                active === 'samsoft' ? <SamSoftDetails/> : active === 'apple' ? <AppleDetails/> : active == 'google'? <GoogleDetails/> :
+                active === 'samsoft' ? <SamSoftDetails/> : active === 'apple' ? <AppleDetails/> : active === 'google'? <GoogleDetails/> :
                 active === 'netflix' ? <NetflixDetails/> : null
             
             }
