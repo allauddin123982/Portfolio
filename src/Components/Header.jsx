@@ -3,6 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import HeaderTabs from "./HeaderTabs";
 import Tabs from '../Tabs.json'
+import logo from '../Images/logo.png'
 const Header = () => {
    const [toggle, setToggle] = useState(false);
 
@@ -10,7 +11,7 @@ const Header = () => {
     <>
       <div className=" m-5 text-white p-5 ">
         <div className="max-w-[1640px] mx-auto flex justify-between items-center ">
-          <div className="text-3xl font-bold font-serif"><h1>Porfolio</h1></div>
+          <div className="w-[60px]"><img src={logo} alt=""/></div>
       
 
         {toggle ? (
@@ -32,7 +33,7 @@ const Header = () => {
               {
                 Tabs.map((element) => {
                   return(
-                    <HeaderTabs tabName={element.title1}/>
+                    <HeaderTabs  tabData={element}/>
                   )
                 })
               }
@@ -50,7 +51,7 @@ const Header = () => {
               {
                 Tabs.map((element) => {
                   return(
-                    <HeaderTabs tabName2={element.title1}/>
+                    <HeaderTabs tabData={element}/>
                   )
                 })
               }

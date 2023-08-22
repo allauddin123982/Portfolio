@@ -4,7 +4,7 @@ import  {BsTelephonePlus} from 'react-icons/bs';
 function Contact() {
   return (
     <>
-      <div className="  max-w-[1640px] mx-auto md:grid grid-cols-2 gap-32 mt-32">
+      <div id="contact-sec" className="max-w-[1500px] mx-auto md:grid grid-cols-2 gap-22 mt-20">
         <div className=" col-span-1 text-white p-10 md:p-20 text-justify">
           <h1 className="text-3xl md:text-5xl  tracking-widest">
             Get in touch

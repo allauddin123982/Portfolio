@@ -17,7 +17,7 @@ const Banner = () => {
             className=" w-[180px] md:w-[280px] rounded-full"
           />
         </div>
-        <div className=" m-2 ">
+        <div className=" m-5 ">
           <h1 className="flex gap-x-2 md:flex-col text-[28px] md:text-[42px] font-bold font-serif tracking-widest ">
             <p className="">Allauddin </p>
             <p>khan</p>
@@ -35,8 +35,8 @@ const Banner = () => {
             <a href="https://www.instagram.com/" target="_blank">
               <BsInstagram className="text-2xl font-bold md:text-4xl" />
             </a>
-            <a href="https://www.google.com/" target="_blank">
-              <AiOutlineGoogle className="text-3xl md:text-5xl" />
+            <a href="https://www.google.com/" target="_blank" className="logo">
+              <AiOutlineGoogle className=" text-3xl md:text-5xl " />
             </a>
             <a href=" https://www.linkedin.com/" target="_blank">
               <BiLogoLinkedin className="text-3xl md:text-5xl" />

@@ -1,32 +1,31 @@
 [
     {
-        "title1":"Home"
+        "title":"Home"
 
 
     },
     {
-        "title1":"About"
+        "title":"About",
+        "href": "/#about-section"
 
 
     },
     {
-        "title1":"Projects"
-
-
-    },
-    {
-        "title1":"Terminologies"
-
+        "title":"Projects",
+        "href": "/#project-section"
 
     },
     {
-        "title1":"Testinomials"
-
+        "title":"Technologies",
+        "href": "/#tech-sec"
 
     },
     {
-        "title1":"Contact"
-
-
+        "title":"Testinomials",
+        "href":"/#tes-sec"
+    },
+    {
+        "title":"Contact",
+        "href":"/#contact-sec"
     }
 ]

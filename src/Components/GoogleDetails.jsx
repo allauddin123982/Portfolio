@@ -10,7 +10,7 @@ function GoogleDetails() {
           
         </div>
         <p className="text-gray-400">From 17 July to 15th September 2022</p>
-        <ul className="ps-8 pt-5 list-disc flex flex-col gap-y-8">
+        <ul className="ps-4 pt-5 list-disc flex flex-col gap-y-8">
           <li>Front-end</li>
           <li>Back-end </li>
           <li>Graphics</li>

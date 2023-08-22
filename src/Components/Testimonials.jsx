@@ -6,12 +6,12 @@ import profile from "../Images/profilepic.png";
 function Testimonials() {
   return (
     <>
-      <div className=" mt-10 md:mt-32 text-white flex justify-center">
-        <h1 className="text-3xl font-bold border-b-[3px] tracking-widest">
+      <div id="tes-sec" className=" mt-14 md:mt-28 text-white flex justify-center">
+        <h1 className="text-3xl font-bold tracking-widest">
           Testimonials
         </h1>
       </div>
-      <div className=" max-w-[1640px] mx-auto md:grid grid-cols-3">
+      <div className="max-w-[1500px] mx-auto md:grid grid-cols-3">
         <TestinomialsCard
           imgg={profile}
           title={"WebFlow"}
