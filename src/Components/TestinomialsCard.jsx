@@ -3,7 +3,7 @@ import React from "react";
 const TestinomialsCard = (props) => {
   return (
     <>
-      <div className="md:w-[500px] p-10 ">
+      <div className="w-auto lg:w-[450px] lg:p-10 ">
         <div className="border border-green-400 rounded-lg p-5">
           <h2 className="text-3xl text-green-400 font-bold tracking-widest">
             {props.title}

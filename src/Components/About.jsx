@@ -3,9 +3,9 @@ import AboutMeCards from "./AboutMeCards";
 import { FaAward } from "react-icons/fa";
 import { BsPeopleFill } from "react-icons/bs";
 import { VscFileSubmodule } from "react-icons/vsc";
-// import aboutvid from '../Images/aboutVid.mp4'
+import aboutvid from '../Images/aboutVid.mp4'
 import lotieJson from "../Images/animation_lllzi5ff.json";
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 import MainSkill from "./MainSkill";
 import EduCertificate from "./EduCertificate";
 function About() {
@@ -22,7 +22,7 @@ function About() {
   return (
     <>
    
-      <div id="about-section" className=" bg-[#09090a] mt-50 pt-16 pb-10 w-full mx-auto">
+      <div id="about-section" className=" bg-[#09090a] lg:mt-80 pt-16 pb-10 w-full mx-auto">
      
         <div className=" flex flex-col md:flex-row items-center gap-y-6 justify-center  md:justify-evenly">
           <AboutMeCards
@@ -46,11 +46,11 @@ function About() {
 
         <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-x-20">
           <div className="videoDiv mt-10 w-[200px] md:w-[220px]">
-            {/* <video className="w-[200px] rounded-full border"  autoPlay muted loop>
+            <video className="w-[200px] rounded-full border"  autoPlay muted loop>
               <source src={aboutvid}></source>
-          </video> */}
+          </video>
 
-            <Lottie options={defaultOptions} />
+            {/* <Lottie options={defaultOptions} /> */}
           </div>
           <div className=" AboutDescDiv mt-10 w-[300px] md:w-[800px] ">
             <h1 className="text-white text-3xl font-bold tracking-widest">

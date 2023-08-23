@@ -7,7 +7,7 @@ function Testimonials() {
   return (
     <>
     <div className="Testimonials mt-24 pt-16 pb-10 bg-[#09090a]">
-    <div className="absolute left-0 mt-[-160px] w-60  ">
+    <div className="absolute left-0 mt-[-160px] w-40 md:w-60  ">
             <svg
               viewBox="0 0 500 500"
               xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ function Testimonials() {
           Testimonials
         </h1>
       </div>
-      <div className="max-w-[1500px] mx-auto md:grid grid-cols-3">
+      <div className=" max-w-[1300px] mx-auto flex flex-col md:grid grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-10 p-10">
         <TestinomialsCard
           imgg={profile}
           title={"WebFlow"}

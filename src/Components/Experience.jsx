@@ -5,7 +5,7 @@ function Experience() {
   return (
     <>
     <div className="experience pb-10 bg-[#050506]">
-    <div className="absolute left-0 mt-[-120px] w-60  ">
+    <div className="absolute left-0 mt-[-60px] md:mt-[-120px] w-32 md:w-60  ">
             <svg
               viewBox="0 0 500 500"
               xmlns="http://www.w3.org/2000/svg"

@@ -9,12 +9,12 @@ const Header = () => {
 
   return (
     <>
-      <div className="p-5 bg-[#0a0a0a] opacity-50 text-white  fixed top-0 w-full">
-        <div className="max-w-[1640px] mx-auto flex justify-around items-center gap-x-72 ">
+      <div className="p-5 bg-[#0a0a0a] z-20 text-white sticky top-0 lg:w-full">
+        <div className=" max-w-[1640px] mx-auto flex justify-between items-center">
           <div className="w-[60px]">
             <img src={logo} alt="" />
           </div>
-          <div className="absolute left-96 mt-[-160px] w-60  ">
+          <div className=" absolute left-[50px] md:left-96 mt-[-120px] md:mt-[-160px] w-40 md:w-60  ">
             <svg
               viewBox="0 0 500 500"
               xmlns="http://www.w3.org/2000/svg"
@@ -55,16 +55,16 @@ const Header = () => {
           {toggle ? (
             <AiOutlineClose
               onClick={() => setToggle(!toggle)}
-              className="font-bold text-xl md:hidden block"
+              className="font-bold text-xl lg:hidden block"
             />
           ) : (
             <AiOutlineMenu
               onClick={() => setToggle(!toggle)}
-              className="font-bold text-xl md:hidden block"
+              className="font-bold text-xl lg:hidden block"
             />
           )}
-          <div className="text-[18px] hidden md:block">
-            <ul className="hidden md:flex gap-20 hover:cursor-pointer ">
+          <div className="text-[18px] hidden lg:block">
+            <ul className="hidden lg:flex gap-20 hover:cursor-pointer ">
               <li className="flex gap-12  ">
                 {Tabs.map((element) => {
                   return <HeaderTabs tabData={element} />;
@@ -76,7 +76,7 @@ const Header = () => {
           {/* mobile responsive menu */}
 
           <ul
-            className={`md:hidden fixed  top-[100px]  w-full p-5 bg-[#21242a] text-white  hover:cursor-pointer
+            className={`lg:hidden fixed  top-[100px]  w-full p-5 bg-[#121417] text-white  hover:cursor-pointer
                 ${toggle ? "left-[0%]" : "left-[-100%]"}
             `}
           >

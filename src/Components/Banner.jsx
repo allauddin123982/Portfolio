@@ -1,5 +1,5 @@
 import React from "react";
-import mainPic from "../Images/me.jpeg";
+import mainPic from "../Images/mee.jpg";
 import Typed from "react-typed";
 import { useState } from "react";
 import { BsInstagram } from "react-icons/bs";
@@ -10,12 +10,12 @@ const Banner = () => {
   return (
     <>
     
-      <div className="md:m-40 p-16 flex flex-col md:flex-row justify-center items-center gap-x-4 text-white">
-        <div className="drop-shadow-[0px_0px_12px_rgba(255,255,255,1.5)]">
+      <div className="my-20 md:m-32 lg:m-52 flex flex-col lg:flex-row justify-center items-center gap-x-2 text-white">
+        <div className="drop-shadow-[0px_0px_12px_rgba(255,255,255,1.5)] p-2 ">
           <img
             src={mainPic}
             alt=""
-            className=" w-[180px] md:w-[280px] rounded-full z-0"
+            className="w-auto h-[220px] md:w-[275px] md:h-[280px]  lg:w-[280px] lg:h-[300px] rounded-full z-0 "
           />
         </div>
         <div className=" m-5 ">
