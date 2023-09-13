@@ -1,7 +1,7 @@
 import React from "react";
 
 // import p1 from "../Images/projec1.png";
-import h from '../Images/hello.jpg'
+import h from '../Images/proj1.png'
 import imgproj2 from "../Images/project2.jpg";
 import imgproj3 from "../Images/proj3.png";
 import ProjCard from "./ProjCard";

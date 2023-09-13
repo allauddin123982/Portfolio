@@ -23,7 +23,7 @@ function About() {
   return (
     <>
    
-      <div id="about-section" className=" bg-[#191919] lg:mt-80 pt-16 pb-10 w-full mx-auto">
+      <div id="about-section" className=" bg-[#191919] lg:mt-80 pb-10 w-full mx-auto">
      
         {/* <div className=" flex flex-col md:flex-row items-center gap-y-6 justify-center  md:justify-evenly">
           <AboutMeCards
@@ -45,7 +45,7 @@ function About() {
           />
         </div> */}
 
-        <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-x-20">
+        <div className="pt-4 md:pt-12 mt-36 flex flex-col md:flex-row justify-center items-center gap-x-16">
           <div className="videoDiv mt-10 w-[200px] md:w-[220px]">
             <video className="w-[200px] rounded-full border"  autoPlay muted loop>
               <source src={aboutvid}></source>
@@ -64,7 +64,7 @@ function About() {
           </div>
         </div>
 
-        <div className=" max-w-[1240px] mx-auto mt-5">
+        <div className=" max-w-[1240px] mx-auto mt-8">
           <div className=" border-b-2 border-green-500 text-white flex gap-x-10 p-5 font-bold text-xl ">
             <p className={` ${active === 'mainSkill' ? 'text-green-400' : 'text-white-400 '} cursor-pointer  hover:text-yellow-500`} onClick={() => {setActive('mainSkill')}} >Main skills</p>
             <p className={` ${active === 'edu_cert' ? 'text-green-400' : 'text-white-400 '}  cursor-pointer  hover:text-yellow-500`} onClick={() => {setActive('edu_cert')}}>Education & Certification</p>
