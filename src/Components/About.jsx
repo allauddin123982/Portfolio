@@ -65,10 +65,10 @@ function About() {
         </div>
 
         <div className=" max-w-[1240px] mx-auto mt-5">
-          <div className=" border-b-2 border-green-500 text-white flex gap-x-10 p-5 font-bold text-xl">
-            <p className={` ${active === 'mainSkill' ? 'text-green-400' : 'text-white-400 '} cursor-pointer `} onClick={() => {setActive('mainSkill')}} >Main skills</p>
-            <p className={` ${active === 'edu_cert' ? 'text-green-400' : 'text-white-400 '}  cursor-pointer`} onClick={() => {setActive('edu_cert')}}>Education & Certification</p>
-            <p className={` ${active === 'experience' ? 'text-green-400' : 'text-white-400 '}  cursor-pointer`} onClick={() => {setActive('experience')}}>Experience</p>
+          <div className=" border-b-2 border-green-500 text-white flex gap-x-10 p-5 font-bold text-xl ">
+            <p className={` ${active === 'mainSkill' ? 'text-green-400' : 'text-white-400 '} cursor-pointer  hover:text-yellow-500`} onClick={() => {setActive('mainSkill')}} >Main skills</p>
+            <p className={` ${active === 'edu_cert' ? 'text-green-400' : 'text-white-400 '}  cursor-pointer  hover:text-yellow-500`} onClick={() => {setActive('edu_cert')}}>Education & Certification</p>
+            <p className={` ${active === 'experience' ? 'text-green-400' : 'text-white-400 '}  cursor-pointer  hover:text-yellow-500`} onClick={() => {setActive('experience')}}>Experience</p>
           </div>
 
           <div className="showSkill">
