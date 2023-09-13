@@ -6,7 +6,6 @@ import Technologies from './Components/Technologies';
 // import Testimonials from './Components/Testimonials';
 import Contact from './Components/Contact';
 import About from './Components/About';
-import Experience from './Components/Experience';
 
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
     <Header/>
     <Banner/>
     <About/>
-    <Experience/>
     <ProjectCards/> 
     <Technologies/>
     {/* <Testimonials/> */}

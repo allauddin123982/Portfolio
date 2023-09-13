@@ -34,7 +34,7 @@ function Contact() {
   return (
     <>
       <ToastContainer />
-      <div className="bg-[#191919] mt-32">
+      <div className=" mt-12">
         <div className="absolute left-0 mt-[-160px] w-40 md:w-60  ">
           <svg
             viewBox="0 0 500 500"
@@ -74,7 +74,7 @@ function Contact() {
         </div>
         <div
           id="contact-sec"
-          className="bg-[#191919] max-w-[1500px] mx-auto md:grid grid-cols-2 gap-22 pt-10"
+          className=" max-w-[1500px] mx-auto md:grid grid-cols-2 gap-22 pt-10"
         >
           <div className=" col-span-1 text-white p-10 md:p-20 text-justify">
             <h1 className="text-3xl md:text-5xl  tracking-widest font-serif">
@@ -100,7 +100,7 @@ function Contact() {
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="  bg-[#91919] shadow-md rounded px-8 py-6"
+              className=" shadow-md rounded px-8 py-6"
             >
               <div className="">
                 <label className="block text-white text-xl" htmlFor="Name">
@@ -108,7 +108,7 @@ function Contact() {
                 </label>
                 <input
                   type="text"
-                  className="bg-[#191919] border-b border-green-500 w-full  rounded-md"
+                  className="bg-[#050506] border-b border-green-500 w-full  rounded-md"
                   name="user_name"
                 />
                 <label className="block text-white mt-6 text-xl" htmlFor="Name">
@@ -116,7 +116,7 @@ function Contact() {
                 </label>
                 <input
                   type="text"
-                  className="bg-[#191919] border-b border-green-500 w-full  rounded-md"
+                  className="bg-[#050506] border-b border-green-500 w-full  rounded-md"
                   name="user_email"
                 />
 
@@ -124,7 +124,7 @@ function Contact() {
                   Message
                 </label>
                 <input
-                  className="bg-[#191919] border-b border-green-500 w-full rounded-lg text-sm"
+                  className="bg-[#050506] border-b border-green-500 w-full rounded-lg text-sm"
                   name="message"
                 />
                 <button
@@ -163,7 +163,7 @@ function Contact() {
         </div>
       </div>
 
-      <p className="mt-10 h-[80px] text-center flex justify-center items-center text-white text-xl pb-10">
+      <p className="mt-10 h-[70px] text-center flex justify-center items-center text-white text-xl">
         This profile is made using React and Tailwind css by Allauddin khan
       </p>
     </>

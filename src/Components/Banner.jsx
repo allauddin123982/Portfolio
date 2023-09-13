@@ -16,7 +16,7 @@ const Banner = () => {
           />
         </div>
         <div className=" m-5 ">
-          <h1 className="Name flex gap-x-2 md:flex-col text-[28px] md:text-[42px] font-bold font-serif tracking-widest">
+          <h1 className="Name flex gap-x-2 md:flex-col text-[28px] md:text-[42px] font-bold  tracking-widest">
             <p>Allauddin </p>
             <p>khan</p>
           </h1>

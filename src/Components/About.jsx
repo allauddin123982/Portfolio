@@ -8,6 +8,7 @@ import aboutvid from '../Images/aboutVid.mp4'
 // import Lottie from "react-lottie";
 import MainSkill from "./MainSkill";
 import EduCertificate from "./EduCertificate";
+import ExperienceDetails from "./ExperienceDetails";
 function About() {
   const [active, setActive] = useState('mainSkill');
 
@@ -67,11 +68,12 @@ function About() {
           <div className=" border-b-2 border-green-500 text-white flex gap-x-10 p-5 font-bold text-xl">
             <p className={` ${active === 'mainSkill' ? 'text-green-400' : 'text-white-400 '} cursor-pointer `} onClick={() => {setActive('mainSkill')}} >Main skills</p>
             <p className={` ${active === 'edu_cert' ? 'text-green-400' : 'text-white-400 '}  cursor-pointer`} onClick={() => {setActive('edu_cert')}}>Education & Certification</p>
+            <p className={` ${active === 'experience' ? 'text-green-400' : 'text-white-400 '}  cursor-pointer`} onClick={() => {setActive('experience')}}>Experience</p>
           </div>
 
           <div className="showSkill">
           {
-            active === 'mainSkill'?<MainSkill/>: active === 'edu_cert'?<EduCertificate/>:null
+            active === 'mainSkill'?<MainSkill/>: active === 'edu_cert'?<EduCertificate/>: active === 'experience'?<ExperienceDetails/>:null
           }
           </div>
 

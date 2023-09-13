@@ -5,27 +5,3 @@ body{
   background-color:#050506;
 
 }
-.logo:hover {
-  background-color: linear-gradient(
-      to right,
-      #7953cd 20%,
-      #00affa 30%,
-      #0190cd 70%,
-      #764ada 80%
-  );
-  background-size: 200% auto;
-  /* color: #9f3d3d; */
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textShine 5s ease-in-out infinite;
-}
-@keyframes textShine {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
-}

@@ -10,11 +10,12 @@ import vsc from '../Images/vscode.png'
 const Technologies = () => {
   return (
     <>
-    <div id='tech-sec' className=" m-5 md:m-10">
+    <div className="bg-[#191919] ">
+    <div id='tech-sec' className=" m-5 md:m-10 pb-12 md:pb-20">
         <div className="  text-white p-10 md:p-16 text-center">
             <h1 className='text-3xl md:text-4xl  tracking-widest'>Technologies I'm working with</h1>
             <p className='text-gray-300 pt-5 flex justify-center text-justify'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, saepe! Quaerat impedit quae distinctio eos maxime quisquam tempora.
+            I love to use these tools and technologies while developing
             </p>
 
         </div>
@@ -28,7 +29,9 @@ const Technologies = () => {
           <img src={fb} alt="" className='w-[100px] h-[40px] md:w-[200px] md:h-[50px]' />
           <img src={vsc} alt="" className='w-[100px] h-[40px] md:w-[200px] md:h-[50px]' />
         </div>
-    </div>  
+    </div> 
+    </div>
+   
     
     
     </>

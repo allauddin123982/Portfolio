@@ -7,12 +7,13 @@ import imgproj3 from "../Images/proj3.png";
 import ProjCard from "./ProjCard";
 
 const ProjectCards = () => {
+  // const [toggle, setToggle] = useState(false)
   return (
     <>
-    <div className=" projects bg-[#191919] p-10">
+    <div className=" projects p-10">
 
       <div id="project-section" className="text-white flex justify-center">
-      {/* <div className="absolute right-0 mt-[-60px] md:mt-[-120px] w-32 md:w-60  ">
+      {/*Blob <div className="absolute right-0 mt-[-60px] md:mt-[-120px] w-32 md:w-60  ">
             <svg
               viewBox="0 0 500 500"
               xmlns="http://www.w3.org/2000/svg"
@@ -56,8 +57,23 @@ const ProjectCards = () => {
     <ProjCard img={h} title={"My Portfolio "} desc={"I've made my portfolio website using the dynamic combination of Tailwind CSS and React.js, and Blob.app, the website seamlessly merges captivating design with responsive functionality. "}/>
     <ProjCard img={imgproj2} title={"Ecomerce"} desc={"I've skillfully crafted a static e-commerce website using Tailwind CSS and React.js, combining aesthetic finesse with seamless interactivity. This project adeptly showcases various products in a captivating layout."}/>
     <ProjCard img={imgproj3} title={"Disney Clone"} desc={"I cloned a Disney website using the dynamic duo of Tailwind CSS and React.js, seamlessly merging aesthetics with interactivity. This project elegantly presents an array of movies in an enticing layout."}/>
+    {/* {
+      toggle? 
+      <>
+      <ProjCard img={h} title={"My Portfolio "} desc={"I've made my portfolio website using the dynamic combination of Tailwind CSS and React.js, and Blob.app, the website seamlessly merges captivating design with responsive functionality. "}/>
+      <ProjCard img={imgproj2} title={"Ecomerce"} desc={"I've skillfully crafted a static e-commerce website using Tailwind CSS and React.js, combining aesthetic finesse with seamless interactivity. This project adeptly showcases various products in a captivating layout."}/>
+      <ProjCard img={imgproj3} title={"Disney Clone"} desc={"I cloned a Disney website using the dynamic duo of Tailwind CSS and React.js, seamlessly merging aesthetics with interactivity. This project elegantly presents an array of movies in an enticing layout."}/>
+      </>
+      :null
+    }
     </div>
-      
+
+    <div className="flex flex-col items-center mt-5">
+
+      <button onClick={() => setToggle(true)} className="border border-green-600 text-green-500 hover:bg-green-500 hover:text-black transition-all duration-100 p-2 w-[200px] md:w-[230px] rounded">
+        View More
+      </button> */}
+    </div>
     </div>
     </>
   );
