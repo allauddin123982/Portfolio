@@ -5,7 +5,7 @@ function Experience() {
   return (
     <>
     <div className="experience pb-10 bg-[#050506]">
-    <div className="absolute left-0 mt-[-60px] md:mt-[-120px] w-32 md:w-60  ">
+    <div className="absolute right-0 mt-[-60px] md:mt-[-120px] w-32 md:w-60  ">
             <svg
               viewBox="0 0 500 500"
               xmlns="http://www.w3.org/2000/svg"
@@ -40,6 +40,7 @@ function Experience() {
             </svg>
     </div>
     
+    
       <div  className="pt-20 md:pt-20  text-white flex justify-center">
         <h1 className="text-3xl font-bold tracking-widest">
           Where I've Worked
@@ -48,14 +49,7 @@ function Experience() {
       
       <ExperienceDetails />
 
-      <div className=" max-w-[320px] md:max-w-[1300px] mx-auto mt-10" >
-        <p className="text-gray-400 text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nihil
-          aliquid totam pro ipsum dolor sit amet consectetur adipisicing elit.
-          Vel nihil aliquid totam provident ipsum dvident, quasi dicta. Itaque
-          assumenda explicabo magni, inventore ipsa
-        </p>
-      </div>
+      
       </div>
     </>
   );

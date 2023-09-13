@@ -18,7 +18,7 @@ const Technologies = () => {
             </p>
 
         </div>
-        <div className="bg-[#080808] p-7 rounded-xl flex flex-wrap max-w-[1400px] mx-auto justify-center gap-x-20 gap-y-12 md:gap-x-40 md:gap-y-16">
+        <div className="bg-[#100f0f] p-7 rounded-xl flex flex-wrap max-w-[1400px] mx-auto justify-center gap-x-20 gap-y-12 md:gap-x-40 md:gap-y-16">
           <img src={mongo} alt="" className=' w-[100px] h-[40px] md:w-[200px] md:h-[50px]' />
           <img src={react} alt="" className='w-[100px] h-[40px] md:w-[200px] md:h-[60px]' />
           <img src={andr} alt="" className='w-[100px] h-[40px] md:w-[200px] md:h-[40px]' />

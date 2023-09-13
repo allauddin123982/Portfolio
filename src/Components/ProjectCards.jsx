@@ -3,32 +3,29 @@ import React from "react";
 // import p1 from "../Images/projec1.png";
 import h from '../Images/hello.jpg'
 import imgproj2 from "../Images/project2.jpg";
-import imgproj3 from "../Images/proj3.jpg";
+import imgproj3 from "../Images/proj3.png";
 import ProjCard from "./ProjCard";
 
 const ProjectCards = () => {
   return (
     <>
-    <div className=" projects bg-[#09090a] p-10">
+    <div className=" projects bg-[#191919] p-10">
 
       <div id="project-section" className="text-white flex justify-center">
-      <div className="absolute right-0 mt-[-100px] md:mt-[-190px] w-32 md:w-60  ">
-          <svg
-            viewBox="0 0 500 500"
-            xmlns="http://www.w3.org/2000/svg"
-            width="100%"
-            id="blobSvg"
-          >
-            <path
-              id="blob"
-              // d="M437,319.5Q441,389,381,429Q321,469,252,462Q183,455,141.5,407Q100,359,50,304.5Q0,250,53.5,198Q107,146,150,110.5Q193,75,259.5,45Q326,15,368,74.5Q410,134,421.5,192Q433,250,437,319.5Z"
-              fill="#ecf502"
+      {/* <div className="absolute right-0 mt-[-60px] md:mt-[-120px] w-32 md:w-60  ">
+            <svg
+              viewBox="0 0 500 500"
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              id="blobSvg"
             >
-              <animate
-                attributeName="d"
-                dur="10000ms"
-                repeatCount="indefinite"
-                values="M437,319.5Q441,389,381,429Q321,469,252,462Q183,455,141.5,407Q100,359,50,304.5Q0,250,53.5,198Q107,146,150,110.5Q193,75,259.5,45Q326,15,368,74.5Q410,134,421.5,192Q433,250,437,319.5Z;
+              <path
+                id="blob"
+                // d="M437,319.5Q441,389,381,429Q321,469,252,462Q183,455,141.5,407Q100,359,50,304.5Q0,250,53.5,198Q107,146,150,110.5Q193,75,259.5,45Q326,15,368,74.5Q410,134,421.5,192Q433,250,437,319.5Z"
+                fill="#00cec9"
+                >
+                <animate attributeName="d" dur="10000ms" repeatCount="indefinite"
+                 values="M437,319.5Q441,389,381,429Q321,469,252,462Q183,455,141.5,407Q100,359,50,304.5Q0,250,53.5,198Q107,146,150,110.5Q193,75,259.5,45Q326,15,368,74.5Q410,134,421.5,192Q433,250,437,319.5Z;
 
                 M424.5,307.5Q409,365,361,403.5Q313,442,244,461Q175,480,117.5,434Q60,388,36,319Q12,250,30,176.5Q48,103,113,66.5Q178,30,249,33Q320,36,358,90Q396,144,418,197Q440,250,424.5,307.5Z;
                 
@@ -44,17 +41,21 @@ const ProjectCards = () => {
 
                 M437,319.5Q441,389,381,429Q321,469,252,462Q183,455,141.5,407Q100,359,50,304.5Q0,250,53.5,198Q107,146,150,110.5Q193,75,259.5,45Q326,15,368,74.5Q410,134,421.5,192Q433,250,437,319.5Z
 
-                "
-              ></animate>
-            </path>
-          </svg>
-      </div>
+                "></animate>
+
+              </path>
+            </svg>
+      </div> */}
+      <div>
+
         <h1 className="text-3xl font-bold tracking-widest">My Projects</h1>
+        <p className="text-center p-2 text-gray-400 tracking-wide ">Here are few projects</p>
+      </div>
       </div>
     <div className=" max-w-[1300px] mx-auto md:grid grid-cols-2 lg:grid-cols-3 justify-center">
     <ProjCard img={h} title={"My Portfolio "} desc={"I've made my portfolio website using the dynamic combination of Tailwind CSS and React.js, and Blob.app, the website seamlessly merges captivating design with responsive functionality. "}/>
     <ProjCard img={imgproj2} title={"Ecomerce"} desc={"I've skillfully crafted a static e-commerce website using Tailwind CSS and React.js, combining aesthetic finesse with seamless interactivity. This project adeptly showcases various products in a captivating layout."}/>
-    <ProjCard img={imgproj3} title={"Lorem ipsum"} desc={"dolor sit amet consectetu sit amet   dolor sit amet consectetur adipisicing adipisicing elit. Laboriosam, nesciunt. dolor sit amet consectetur adipisicing elit."}/>
+    <ProjCard img={imgproj3} title={"Disney Clone"} desc={"I cloned a Disney website using the dynamic duo of Tailwind CSS and React.js, seamlessly merging aesthetics with interactivity. This project elegantly presents an array of movies in an enticing layout."}/>
     </div>
       
     </div>

@@ -18,9 +18,9 @@ function ExperienceDetails() {
 
             <ul className="flex flex-col gap-y-10 md:flex-row gap-x-20 font-semibold text-xl">
                 <li className={` hover:cursor-pointer  ${active === 'samsoft' ? 'text-green-400' : 'text-white-400 '} `} onClick={() => setActive("samsoft")}>SamSoft</li>
-                <li className={` hover:cursor-pointer  ${active === 'netflix' ?'text-green-400' : 'text-white-400 '} `} onClick={() => setActive("netflix")}>Netflix </li>
+                {/* <li className={` hover:cursor-pointer  ${active === 'netflix' ?'text-green-400' : 'text-white-400 '} `} onClick={() => setActive("netflix")}>Netflix </li>
                 <li className={` hover:cursor-pointer  ${active === 'google' ?'text-green-400' : 'text-white-400 '} `} onClick={() => setActive("google")}>Google</li>
-                <li className={` hover:cursor-pointer  ${active === 'apple' ? 'text-green-400' : 'text-white-400 '} `} onClick={() => setActive("apple")}>Apple</li>
+                <li className={` hover:cursor-pointer  ${active === 'apple' ? 'text-green-400' : 'text-white-400 '} `} onClick={() => setActive("apple")}>Apple</li> */}
             
             {/* className={` ${condition ? 'styling' : 'styling '} `} */}
             </ul>

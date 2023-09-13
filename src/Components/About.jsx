@@ -1,30 +1,30 @@
 import React, { useState } from "react";
-import AboutMeCards from "./AboutMeCards";
-import { FaAward } from "react-icons/fa";
-import { BsPeopleFill } from "react-icons/bs";
-import { VscFileSubmodule } from "react-icons/vsc";
+// import AboutMeCards from "./AboutMeCards";
+// import { FaAward } from "react-icons/fa";
+// import { BsPeopleFill } from "react-icons/bs";
+// import { VscFileSubmodule } from "react-icons/vsc";
 import aboutvid from '../Images/aboutVid.mp4'
-import lotieJson from "../Images/animation_lllzi5ff.json";
+// import lotieJson from "../Images/animation_lllzi5ff.json";
 // import Lottie from "react-lottie";
 import MainSkill from "./MainSkill";
 import EduCertificate from "./EduCertificate";
 function About() {
   const [active, setActive] = useState('mainSkill');
 
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: lotieJson,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+  // const defaultOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   animationData: lotieJson,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice",
+  //   },
+  // };
   return (
     <>
    
-      <div id="about-section" className=" bg-[#09090a] lg:mt-80 pt-16 pb-10 w-full mx-auto">
+      <div id="about-section" className=" bg-[#191919] lg:mt-80 pt-16 pb-10 w-full mx-auto">
      
-        <div className=" flex flex-col md:flex-row items-center gap-y-6 justify-center  md:justify-evenly">
+        {/* <div className=" flex flex-col md:flex-row items-center gap-y-6 justify-center  md:justify-evenly">
           <AboutMeCards
             icon={<FaAward className="text-white text-2xl md:text-3xl " />}
             title={"Experience"}
@@ -42,7 +42,7 @@ function About() {
             title={"Projects"}
             exptime={"80+ Completed"}
           />
-        </div>
+        </div> */}
 
         <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-x-20">
           <div className="videoDiv mt-10 w-[200px] md:w-[220px]">
@@ -58,7 +58,7 @@ function About() {
             </h1>
 
             <p className="py-2 md:py-5 text-gray-400 text-justify">
-            I am a dedicated and ambitious Computer Science student at Capital University, specializing in software development and front-end web development. With a strong foundation in languages such as C, C++, Python, SQL, and PHP. I am also experienced in front-end technologies, including HTML, CSS, Bootstrap, jQuery, AngularJS, JSON, and AJAX. My passion for problem-solving and attention to detail drive me to deliver high-quality work.
+            I am a dedicated and ambitious Computer Science student at Capital University, specializing in Software development and Web development. I possess a solid foundation in languages such as C++, Python, SQL, and PHP.  I have hands-on experience with a variety of front-end technologies, including  HTML, CSS, Bootstrap, Tailwind CSS, jQuery, React JS, Angular JS, JSON, and AJAX. My passion for problem-solving and attention to detail inspire me to consistently deliver high-quality work.
             </p>
           </div>
         </div>
