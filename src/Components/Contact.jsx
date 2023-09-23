@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { AiOutlineMail } from "react-icons/ai";
-import { ToastContainer, toast } from "react-toastify";
 function Contact() {
   const form = useRef();
   const [loading, setLoading] = useState(false);
@@ -18,10 +17,6 @@ function Contact() {
       .then(
         (result) => {
           setLoading(false);
-
-          toast.success("Email send successfully!", {
-            toastId: "id for 1 time display",
-          });
           console.log(result.text);
         },
         (error) => {
@@ -33,7 +28,6 @@ function Contact() {
 
   return (
     <>
-      <ToastContainer />
       <div className=" mt-12">
         <div className="absolute left-0 mt-[-160px] w-40 md:w-60  ">
           <svg

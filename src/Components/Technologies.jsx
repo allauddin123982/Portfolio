@@ -10,16 +10,16 @@ import vsc from '../Images/vscode.png'
 const Technologies = () => {
   return (
     <>
-    <div className="bg-[#191919] ">
+    <div className="bg-[#0e0d0d] ">
     <div id='tech-sec' className=" m-5 md:m-10 pb-12 md:pb-20">
-        <div className="  text-white p-10 md:p-16 text-center">
+        <div className="text-white p-10 md:p-16 text-center">
             <h1 className='text-3xl md:text-4xl  tracking-widest'>Technologies I'm working with</h1>
             <p className='text-gray-300 pt-5 flex justify-center text-justify'>
             I love to use these tools and technologies while developing
             </p>
 
         </div>
-        <div className="bg-[#100f0f] p-7 rounded-xl flex flex-wrap max-w-[1400px] mx-auto justify-center gap-x-20 gap-y-12 md:gap-x-40 md:gap-y-16">
+        <div className="bg-[#121111] p-7 rounded-xl flex flex-wrap max-w-[1400px] mx-auto justify-center gap-x-20 gap-y-12 md:gap-x-40 md:gap-y-16">
           <img src={mongo} alt="" className=' w-[100px] h-[40px] md:w-[200px] md:h-[50px]' />
           <img src={react} alt="" className='w-[100px] h-[40px] md:w-[200px] md:h-[60px]' />
           <img src={andr} alt="" className='w-[100px] h-[40px] md:w-[200px] md:h-[40px]' />

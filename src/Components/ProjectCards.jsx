@@ -13,7 +13,7 @@ const ProjectCards = () => {
     <div className=" projects p-10">
 
       <div id="project-section" className="text-white flex justify-center">
-      {/*Blob <div className="absolute right-0 mt-[-60px] md:mt-[-120px] w-32 md:w-60  ">
+       <div className="absolute right-0 mt-[-60px] md:mt-[-120px] w-32 md:w-60  ">
             <svg
               viewBox="0 0 500 500"
               xmlns="http://www.w3.org/2000/svg"
@@ -46,11 +46,11 @@ const ProjectCards = () => {
 
               </path>
             </svg>
-      </div> */}
+      </div>
       <div>
 
-        <h1 className="text-3xl font-bold tracking-widest">My Projects</h1>
-        <p className="text-center p-2 text-gray-400 tracking-wide ">Here are few projects</p>
+        <h1 className="text-3xl font-bold tracking-widest text-center">My Projects</h1>
+        <p className="text-center p-2 text-gray-400 tracking-wide ">Here are few projects that I have recently worked on</p>
       </div>
       </div>
     <div className=" max-w-[1300px] mx-auto md:grid grid-cols-2 lg:grid-cols-3 justify-center">

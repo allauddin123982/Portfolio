@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="p-5 bg-[#191919] z-20 text-white sticky top-0 lg:w-full">
+      <div className="p-5 bg-[#0e0d0d] z-20 text-white sticky top-0 lg:w-full">
         <div className=" max-w-[1640px] mx-auto flex justify-between items-center">
           <div className="w-[60px]">
             <img src={logo} alt="" />
