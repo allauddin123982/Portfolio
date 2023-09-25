@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import mainPic from "../Images/mee.jpg";
 import Typed from "react-typed";
 import { BsInstagram } from "react-icons/bs";
@@ -6,7 +6,9 @@ import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
 import { AiOutlineGoogle } from "react-icons/ai";
 import bannerBG from "../Images/bannerBG.jpg";
 import ParticlesContainer from "./ParticlesContainer";
+import { CursorContext } from "../context/CursorContext";
 const Banner = () => {
+  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (
     <>
       <div
@@ -14,10 +16,7 @@ const Banner = () => {
         style={{ backgroundImage: `url(${bannerBG})` }}
       >
         <ParticlesContainer />
-        <div
-          className="my-20 md:m-28 lg:m-52 flex flex-col lg:flex-row justify-center items-center gap-x-2 text-white"
-          // style={{ zIndex: "-1" }} // Set higher z-index for content
-        >
+        <div className="my-20 md:m-28 lg:m-52 flex flex-col lg:flex-row justify-center items-center gap-x-2 text-white">
           <div className="drop-shadow-[0px_0px_12px_rgba(255,255,255,1.5)] ">
             <img
               src={mainPic}
@@ -26,10 +25,15 @@ const Banner = () => {
             />
           </div>
           <div className="m-5" style={{ zIndex: "1" }}>
-            <h1 className="Name gap-x-2 md:flex-col text-[28px] md:text-[42px] font-bold  tracking-widest">
+           
+            <div
+              className="Name gap-x-2 md:flex-col text-[28px] md:text-[42px] font-bold  tracking-widest"
+              onMouseEnter={mouseEnterHandler}
+              onMouseLeave={mouseLeaveHandler}
+            >
               <p>Allauddin </p>
               <p>khan</p>
-            </h1>
+            </div>
             <p className="text-xl md:text-2xl font-semibold pt-2 md:pt-5">
               <Typed
                 strings={["Web developer", "App developer", "Freelancer"]}
@@ -42,12 +46,14 @@ const Banner = () => {
               <a
                 href="https://www.instagram.com/allauddin4973/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <BsInstagram className="text-2xl font-bold md:text-4xl hover:text-[#810C55]" />
               </a>
               <a
                 href="https://mail.google.com/mail/u/0/#inbox"
                 target="_blank"
+                rel="noreferrer"
                 className="logo"
               >
                 <AiOutlineGoogle className=" text-3xl md:text-5xl hover:text-blue-500 " />
@@ -55,10 +61,15 @@ const Banner = () => {
               <a
                 href="https://www.linkedin.com/in/allauddin-khan-1515b1229/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <BiLogoLinkedin className="text-3xl md:text-5xl hover:text-[#1CDCE8]" />
               </a>
-              <a href="https://github.com/allauddin123982" target="_blank">
+              <a
+                href="https://github.com/allauddin123982"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <BiLogoGithub className="text-3xl md:text-5xl hover:text-yellow-500" />
               </a>
             </div>

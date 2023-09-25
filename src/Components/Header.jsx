@@ -6,7 +6,7 @@ import Tabs from "../Tabs.json";
 import logo from "../Images/logo.png";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
-
+  
   return (
     <>
       <div className="p-5 bg-[#0e0d0d] z-20 text-white sticky top-0 lg:w-full">
@@ -64,6 +64,7 @@ const Header = () => {
             />
           )}
           <div className="text-[18px] hidden lg:block">
+
             <ul className="hidden lg:flex gap-20 hover:cursor-pointer ">
               {Tabs.map((element) => {
                 return (

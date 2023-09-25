@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 // import AboutMeCards from "./AboutMeCards";
 // import { FaAward } from "react-icons/fa";
 // import { BsPeopleFill } from "react-icons/bs";
@@ -9,8 +9,10 @@ import aboutvid from '../Images/aboutVid.mp4'
 import MainSkill from "./MainSkill";
 import EduCertificate from "./EduCertificate";
 import ExperienceDetails from "./ExperienceDetails";
+import { CursorContext } from "../context/CursorContext";
 function About() {
   const [active, setActive] = useState('mainSkill');
+  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   // const defaultOptions = {
   //   loop: true,
@@ -53,7 +55,10 @@ function About() {
 
             {/* <Lottie options={defaultOptions} /> */}
           </div>
-          <div className=" AboutDescDiv mt-10 w-[300px] md:w-[800px] ">
+          <div className=" AboutDescDiv mt-10 w-[300px] md:w-[800px] "
+          onMouseEnter={mouseEnterHandler}
+          onMouseLeave={mouseLeaveHandler}
+          >
             <h1 className="text-white text-3xl font-bold tracking-widest">
               About me
             </h1>
