@@ -1,7 +1,7 @@
 import React from "react";
 import cust from "../Images/download.jpg";
 import conc from "../Images/concordia.png";
-import pearl from "../Images/pearl.png";
+import pearl from "../Images/pearl.jpg";
 const EduCertificate = () => {
   return (
     <div className="m-5">
@@ -23,18 +23,18 @@ const EduCertificate = () => {
         </p>
       </p>
 
-      <p className="mt-10 flex gap-x-4 items-center">
-        <img src={pearl} alt="" className="rounded-full w-16" />
-        <p>
-
-        <h1 className="text-white text-2xl ">Certification</h1>
-        <ul className="text-gray-500 ps-4 text-xl flex gap-x-10 ">
-          <li className="list-disc ">HTML</li>
-          <li className="list-disc ">CSS </li>
-          <li className="list-disc">PHP</li>
-          <li className="list-disc">MS Access</li>
-        </ul>
+      <p className="mt-10 flex gap-x-4 ">
+        <p className="">
+          <img src={pearl} alt="" className="rounded-full w-16" />
         </p>
+        <ul className=" text-gray-500 ps-4 text-xl">
+          <h1 className="text-white text-2xl ">Certification</h1>
+          <li className="list-disc ms-4 ">HTML</li>
+          <li className="list-disc ms-4">CSS </li>
+          <li className="list-disc ms-4">React Basics</li>
+          <li className="list-disc ms-4">MS Access</li>
+          <li className="list-disc ms-4">PHP</li>
+        </ul>
       </p>
     </div>
   );

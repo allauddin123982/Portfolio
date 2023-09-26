@@ -1,27 +1,22 @@
 [
-    {
-        "title":"Home"
-
-
-    },
-    {
-        "title":"About",
-        "href": "/#about-section"
-
-
-    },
-    {
-        "title":"Projects",
-        "href": "/#project-section"
-
-    },
-    {
-        "title":"Technologies",
-        "href": "/#tech-sec"
-
-    },
-    {
-        "title":"Contact",
-        "href":"/#contact-sec"
-    }
+  {
+    "title": "Home",
+    "href": "/"
+  },
+  {
+    "title": "About",
+    "href": "/#about-section"
+  },
+  {
+    "title": "Projects",
+    "href": "/#project-section"
+  },
+  {
+    "title": "Technologies",
+    "href": "/#tech-sec"
+  },
+  {
+    "title": "Contact",
+    "href": "/#contact-sec"
+  }
 ]

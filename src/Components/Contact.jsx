@@ -76,7 +76,7 @@ function Contact() {
             </h1>
             <p className="text-gray-300 text-xl pt-5">
               I am available for full time, part time and freelance work.
-              Connect with me via email
+              Contact me via email
             </p>
 
             <figure className="">
