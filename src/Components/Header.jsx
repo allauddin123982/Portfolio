@@ -60,7 +60,7 @@ const Header = () => {
           ) : (
             <AiOutlineMenu
               onClick={() => setToggle(!toggle)}
-              className="font-bold text-xl lg:hidden block"
+              className=" font-bold text-xl lg:hidden block"
             />
           )}
           <div className="text-[18px] hidden lg:block">

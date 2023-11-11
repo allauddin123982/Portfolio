@@ -1,15 +1,14 @@
-import React, { useContext } from "react";
+import React from "react";
 
 // import p1 from "../Images/projec1.png";
 import h from "../Images/proj1.png";
 import imgproj2 from "../Images/project2.jpg";
 import imgproj3 from "../Images/proj3.png";
 import ProjCard from "./ProjCard";
-import { CursorContext } from "../context/CursorContext";
 
 const ProjectCards = () => {
   // const [toggle, setToggle] = useState(false)
-  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+ 
 
   return (
     <>
@@ -52,10 +51,7 @@ const ProjectCards = () => {
               </path>
             </svg>
           </div>
-          <div
-            onMouseEnter={mouseEnterHandler}
-            onMouseLeave={mouseLeaveHandler}
-          >
+          <div>
             <h1 className="text-3xl font-bold tracking-widest text-center">
               My Projects
             </h1>

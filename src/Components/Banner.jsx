@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import mainPic from "../Images/mee.jpg";
 import Typed from "react-typed";
 import { BsInstagram } from "react-icons/bs";
@@ -6,9 +6,7 @@ import { BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
 import { AiOutlineGoogle } from "react-icons/ai";
 import bannerBG from "../Images/bannerBG.jpg";
 import ParticlesContainer from "./ParticlesContainer";
-import { CursorContext } from "../context/CursorContext";
 const Banner = () => {
-  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (
     <>
       <div
@@ -27,10 +25,7 @@ const Banner = () => {
           <div className="m-5" style={{ zIndex: "1" }}>
            
             <div
-              className="Name gap-x-2 md:flex-col text-[28px] md:text-[42px] font-bold  tracking-widest"
-              onMouseEnter={mouseEnterHandler}
-              onMouseLeave={mouseLeaveHandler}
-            >
+              className="Name gap-x-2 md:flex-col text-[28px] md:text-[42px] font-bold  tracking-widest">
               <p>Allauddin </p>
               <p>khan</p>
             </div>

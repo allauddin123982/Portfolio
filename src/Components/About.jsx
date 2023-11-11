@@ -1,12 +1,11 @@
-import React, { useContext, useState } from "react";
+import React, {useState } from "react";
 import aboutvid from "../Images/aboutVid.mp4";
 import MainSkill from "./MainSkill";
 import EduCertificate from "./EduCertificate";
 import ExperienceDetails from "./ExperienceDetails";
-import { CursorContext } from "../context/CursorContext";
+
 function About() {
   const [active, setActive] = useState("mainSkill");
-  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   return (
     <>
@@ -22,11 +21,7 @@ function About() {
               <source src={aboutvid}></source>
             </video>
           </div>
-          <div
-            className=" AboutDescDiv mt-10 w-[300px] md:w-[800px] "
-            onMouseEnter={mouseEnterHandler}
-            onMouseLeave={mouseLeaveHandler}
-          >
+          <div className=" AboutDescDiv mt-10 w-[300px] md:w-[800px] ">
             <h1 className="text-white text-3xl font-bold tracking-widest">
               About me
             </h1>

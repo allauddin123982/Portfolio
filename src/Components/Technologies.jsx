@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import mongo from "../Images/mongodb.png";
 import react from "../Images/react.png";
 import andr from "../Images/androidlogo.png";
@@ -7,19 +7,13 @@ import reactNat from "../Images/reactNative.png";
 import exp from "../Images/express.png";
 import fb from "../Images/firebase.png";
 import vsc from "../Images/vscode.png";
-import { CursorContext } from "../context/CursorContext";
 const Technologies = () => {
-  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
-
+ 
   return (
     <>
       <div className="bg-[#0e0d0d] ">
         <div id="tech-sec" className=" m-5 md:m-10 pb-12 md:pb-20">
-          <div
-            className="text-white p-10 md:p-16 text-center"
-            onMouseEnter={mouseEnterHandler}
-            onMouseLeave={mouseLeaveHandler}
-          >
+          <div>
             <h1 className="text-3xl md:text-4xl  tracking-widest">
               Technologies I'm working with
             </h1>
