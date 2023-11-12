@@ -13,15 +13,15 @@ const Technologies = () => {
     <>
       <div className="bg-[#0e0d0d] ">
         <div id="tech-sec" className=" m-5 md:m-10 pb-12 md:pb-20">
-          <div>
-            <h1 className="text-3xl md:text-4xl  tracking-widest">
+          <div className="pt-5">
+            <h1 className="text-3xl md:text-4xl text-white flex justify-center text-justify tracking-widest">
               Technologies I'm working with
             </h1>
             <p className="text-gray-300 pt-5 flex justify-center text-justify">
               I love to use these tools and technologies while developing
             </p>
           </div>
-          <div className="bg-[#121111] p-7 rounded-xl flex flex-wrap max-w-[1400px] mx-auto justify-center gap-x-20 gap-y-12 md:gap-x-40 md:gap-y-16">
+          <div className="mt-5 bg-[#121111] p-7 rounded-xl flex flex-wrap max-w-[1400px] mx-auto justify-center gap-x-20 gap-y-12 md:gap-x-40 md:gap-y-16">
             <img
               src={mongo}
               alt=""
