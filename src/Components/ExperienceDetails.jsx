@@ -1,30 +1,38 @@
-import React from "react";
-import { useState } from "react";
-import SamSoftDetails from "./SamSoftDetails";
-
+import teresol from ".././Images/teresol.jpeg";
+import samsoft from ".././Images/samsoft.jpeg";
 function ExperienceDetails() {
-  const [active, setActive] = useState("samsoft");
-
   return (
     <>
-      <div className="max-w-[1240px] mx-auto mt-5  text-white p-6 ">
-        <div className="w-[300px] ">
-          <ul className="flex flex-col gap-y-10 md:flex-row gap-x-20 font-semibold text-xl">
-            <li
-              className={` hover:cursor-pointer  ${
-                active === "samsoft" ? "text-green-400" : "text-white-400 "
-              } `}
-              onClick={() => setActive("samsoft")}
-            >
-              SAMSOFT
+      <div className="max-w-[1080px] mx-auto mt-5  text-white p-6">
+        <div className="w-[350px] ">
+          <ul className="flex flex-col gap-y-10 ">
+            <li className="flex items-center gap-x-8">
+              <div className="w-20 h-20 rounded-full">
+                <img src={teresol} alt="" className="rounded-full"/>
+              </div>
+              <div >
+                <h1 className="text-lg font-semibold">TereSol pvt ltd</h1>
+                <p className="text-md tracking-wider pt-1">
+                  Software Design Engineer <span className="text-green-500 "> (current)</span>
+                </p>
+              </div>
             </li>
 
-            {/* className={` ${condition ? 'styling' : 'styling '} `} */}
+            <li className="flex items-center gap-x-8">
+              <div className="w-20 h-20 rounded-full">
+                <img src={samsoft} alt="" className="rounded-full"/>
+              </div>
+              <div >
+                <h1 className="text-lg font-semibold">SAMSOFT Technologies</h1>
+                <p className="text-md tracking-wider pt-1">
+                  React JS developer
+                </p>
+              </div>
+            </li>
           </ul>
         </div>
-        <div className=" w-[300px] md:w-[400px] mt-6 ">
-          {active === "samsoft" ? <SamSoftDetails /> : null}
-        </div>
+
+       
       </div>
     </>
   );

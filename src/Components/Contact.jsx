@@ -156,10 +156,6 @@ function Contact() {
           </div>
         </div>
       </div>
-
-      <p className="mt-10 h-[70px] text-center flex justify-center items-center text-white text-xl">
-        This profile is made using React and Tailwind css by Allauddin khan
-      </p>
     </>
   );
 }

@@ -27,19 +27,13 @@ function About() {
             </h1>
 
             <p className="py-2 md:py-5 text-gray-400 text-justify">
-              I am a dedicated and ambitious Computer Science student at Capital
-              University, specializing in Software development and Web
-              development. I possess a solid foundation in languages such as
-              C++, Python, SQL, and PHP. I have hands-on experience with a
-              variety of front-end technologies, including HTML, CSS, Bootstrap,
-              Tailwind CSS, jQuery, React JS, Angular JS, JSON, and AJAX. My
-              passion for problem-solving and attention to detail inspire me to
-              consistently deliver high-quality work.
+            Software Design Engineer@Teresol Pvt Ltd | CS Graduate | JS, React JS | Web Development. <br />
+            As a recent Computer Science graduate from Capital University of Science & Technology, I'm excited to apply my skills and knowledge as a System Design Engineer at Teresol Pvt Ltd. With a strong foundation in software development and web development, I possess hands-on experience with front-end technologies like HTML, CSS, Bootstrap, Tailwind CSS, Javascript, jQuery, and React JS. I'm passionate about problem-solving and committed to delivering high-quality work with attention to detail. I'm eager to continue growing and learning in my career as a System Design Engineer.
             </p>
           </div>
         </div>
 
-        <div className=" max-w-[1240px] mx-auto mt-8">
+        <div className=" max-w-[1080px] mx-auto mt-8">
           <div className=" border-b-2 border-green-500 text-white flex gap-x-10 p-5 font-bold text-xl ">
             <p
               className={` ${

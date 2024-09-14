@@ -14,7 +14,7 @@ const Banner = () => {
         style={{ backgroundImage: `url(${bannerBG})` }}
       >
         <ParticlesContainer />
-        <div className="my-20 md:m-28 lg:m-52 flex flex-col lg:flex-row justify-center items-center gap-x-2 text-white">
+        <div className="my-20 md:m-28 lg:m-40 flex flex-col lg:flex-row justify-center items-center gap-x-2 text-white">
           <div className="drop-shadow-[0px_0px_12px_rgba(255,255,255,1.5)] ">
             <img
               src={mainPic}

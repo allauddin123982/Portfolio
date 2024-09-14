@@ -31,9 +31,8 @@ const EduCertificate = () => {
           <h1 className="text-white text-2xl ">Certification</h1>
           <li className="list-disc ms-4 ">HTML</li>
           <li className="list-disc ms-4">CSS </li>
-          <li className="list-disc ms-4">React Basics</li>
-          <li className="list-disc ms-4">MS Access</li>
-          <li className="list-disc ms-4">PHP</li>
+          <li className="list-disc ms-4">Javascript</li>
+          <li className="list-disc ms-4">React JS</li>
         </ul>
       </p>
     </div>

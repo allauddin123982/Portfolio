@@ -1,6 +1,19 @@
+
+*{
+ box-sizing: border-box;
+ /* background: rgb(0 100 0 / 0) !important;  */
+ /* outline: 3px solid limegreen !important; */
+}
+
+
+
+
 .Name{
   font-family:Varino;
 }
+
+
+
 body{
   background-color:#050506;
 
